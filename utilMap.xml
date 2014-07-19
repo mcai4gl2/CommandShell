@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shellcommands [
+	<!ELEMENT shellcommands (command+)>
+	<!ELEMENT command (name,file)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT file (#PCDATA)>
+	]>
+<shellcommands>
+	<command>
+		<name>deletepyclass</name>
+		<file>deleteJythonClassFiles</file>
+	</command>
+	<command>
+		<name>list</name>
+		<file>listuserdefinedfunctions</file>
+	</command>
+	<command>
+		<name>exit</name>
+		<file>exit</file>
+	</command>
+	<command>
+		<name>builtin</name>
+		<file>listbuildinutils</file>
+	</command>
+	<command>
+		<name>update</name>
+		<file>updatecommands</file>
+	</command>
+</shellcommands>

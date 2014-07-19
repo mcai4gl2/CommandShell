@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: shell.ShellTest
+Class-Path: /usr/share/java/jython.jar /home/LiGeng/Download/xerces-2_9_1/xercesImpl.jar /home/LiGeng/Download/xerces-2_9_1/xml-apis.jar
